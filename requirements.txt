@@ -1,0 +1,25 @@
+# ─────────────────────────────────────────────
+# UK Weather ETL Pipeline – Python dependencies
+# Install with: pip install -r requirements.txt
+# ─────────────────────────────────────────────
+ 
+# HTTP requests to the Open-Meteo weather API
+requests==2.31.0
+ 
+# Data manipulation and transformation (ETL core)
+pandas==2.2.2
+ 
+# PostgreSQL database adapter for Python
+psycopg2-binary==2.9.9
+ 
+# SQLAlchemy lets pandas write directly to PostgreSQL via .to_sql()
+sqlalchemy==2.0.30
+ 
+# Loads credentials from .env file into environment variables
+python-dotenv==1.0.1
+ 
+# Data visualisation for the reports module
+matplotlib==3.9.0
+ 
+# Apache Airflow – pipeline orchestration
+apache-airflow==2.9.1

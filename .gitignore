@@ -1,0 +1,26 @@
+# Credentials
+.env
+
+# Virtual environment
+venv/
+airflow-venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Log files
+logs/
+
+# Report output images
+reports/output/
+
+# Airflow folder
+airflow/
+
+# VS Code settings
+.vscode/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
